@@ -1,0 +1,28 @@
+.sign-up-root {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.Sign-up-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formed-class {
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.input-ico-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.icons {
+    color: black !important;
+}
