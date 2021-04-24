@@ -11,6 +11,7 @@ const MyAppBar = () => {
                     <div>
                         
                             <Link to='/about'><Button color='secondary' variant='contained'>About Us </Button> </Link>
+                            
                             <Link to='/help'> <Button color='inherit' varient='contained'>Help </Button></Link>
                     </div>
                 </Toolbar>
