@@ -1,36 +1,22 @@
-import React, { useState } from "react";
-import "./Appbar.css";
-const AppBar = () => {
+import { AppBar, Button, Toolbar } from "@material-ui/core";
+import React from "react";
+import { Link } from "react-router-dom";
+
+const MyAppBar = () => {
     return (
-        <div className='appbar-container'>
-            <div className='main-app'>
-                <div className='logo'>
-                    <a href='/'>
-                        <img src='' alt='LOGO' className='LOGO-IMAGE' />
-                    </a>
-                </div>
-                <div className='app-items'>
-                    <ul className='appy'>
-                        <li className='applist-1'>
-                            <a href='/' className='applis'>
-                                Button-1
-                            </a>
-                        </li>
-                        <li className='applist-1'>
-                            <a href='/' className='applis'>
-                                Button-2
-                            </a>
-                        </li>
-                        <li className='applist-1'>
-                            <a href='/' className='applis'>
-                                Button-3
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div style={{ flexGrow: 1 }}>
+            <AppBar>
+                <Toolbar style={{ justifyContent: "space-between" }}>
+                    <img src='' alt='web logo' className='logo' />
+                    <div>
+                        
+                            <Link to='/about'><Button color='secondary' variant='contained'>About Us </Button> </Link>
+                            <Link to='/help'> <Button color='inherit' varient='contained'>Help </Button></Link>
+                    </div>
+                </Toolbar>
+            </AppBar>
         </div>
     );
 };
 
-export default AppBar;
+export default MyAppBar;

@@ -1,6 +1,15 @@
 .oauth-btn {
-    margin-top: 30px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
+}
+
+.linnee {
+    margin-top: 60px;
+}
+
+.signy{
+    color: "#2E527D" ;
+    text-decoration: none;
 }

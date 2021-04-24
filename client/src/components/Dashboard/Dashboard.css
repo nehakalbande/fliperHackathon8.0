@@ -1,0 +1,20 @@
+.dashboard-root{
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.dashh{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+.load-more-btn{
+    margin:50px;
+}
+
+@media screen and (max-width:1000px) {
+    .dashboard-root{
+        width: 80%;
+    }
+}
